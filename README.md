@@ -1,4 +1,4 @@
-# PercentageGainRequiredToBreakEven
+# Percentage Gain Required To Break-Even
 
 Ever wondered how much do you need to make percentage wise to break-even?
 In financial markets, a drawdown is the decline from a peak to a trough.
@@ -40,5 +40,6 @@ Percentage change required to Break-Even:
    -90     900.000000
    -95    1900.000000
 ```
+
 ### Graph
 ![alt text](https://github.com/samizak/PercentageGainRequiredToBreakEven/blob/main/images/output.png?raw=true)
