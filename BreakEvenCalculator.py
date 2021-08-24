@@ -7,8 +7,8 @@ import pandas as pd
 def CalculatePercentageGainRequired(L):
     return L / (1 - 0.01 * L)
 
-def CalculatePercentageGainLoss ():
-    for i in range (0, 100, 1):
+def CalculatePercentageGainLoss (step):
+    for i in range (0, 100, step):
         gain = CalculatePercentageGainRequired(i)
         data.append([-i, gain])
         
@@ -35,11 +35,12 @@ def plotGraph (data):
     plt.show()
 
 data = []
+step = 1  # The step between the percentage loss
 
 print("Percentage change required to Break-Even:")
 print("-" * 40 + '\n')
 
-CalculatePercentageGainLoss ()
+CalculatePercentageGainLoss (step)
 df = pd.DataFrame(data, columns=['Loss (%)', 'Gain (%)'])
 
 # Print DataFrame without index
