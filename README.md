@@ -3,6 +3,11 @@
 Ever wondered how much do you need to make percentage wise to break-even?
 In financial markets, a drawdown is the decline from a peak to a trough.
 
+## Interactive demo
+An interactive demo bootstrapped with React can be found here:
+
+https://sz-break-even-visualization.herokuapp.com/
+
 ## Examples
 ### Example 1
 You bought a stock at $100 then price drops to $50, meaning a 50% loss on your investment.
